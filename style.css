@@ -6,11 +6,8 @@
 }
 
 
-
-.card-black{
+.card {
     margin: 100px;
-    background: black;
-    color: #CECECE;
     border-radius: 30px;
     box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
     padding: 15px;
@@ -18,26 +15,22 @@
     height: 450px;
     
 }
-.card-dark{
-    margin: 100px;
-    border-radius: 30px;
-    background: #232639;
-    box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+.card-black{
+    background: black;
     color: #CECECE;
-    padding: 20px;
-    width: 400px;
-    height: 450px;
+    
+}
+.card-dark{
+   
+    color: #CECECE;
+    background: #232639;
+    
     
 }
 .card-light{
-    margin: 100px;
+    
     background: #ffffff;
     color: #232639;
-    border-radius: 30px;
-    box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
-    padding: 20px;
-    width: 400px;
-    height: 450px;
     
 }
 .input1{
@@ -45,7 +38,7 @@
     width: 250px;
     height: 50px;
     background: #373737;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-left: 30px;
     padding-top: 6px;
 
@@ -64,6 +57,14 @@
     
     color: #CECECE;
 
+}
+
+.card > img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
 }
 .card-dark .input1 input{
     background: #42445D;
@@ -98,56 +99,74 @@ button{
     display: flex;
     justify-content: flex-end;
     margin-top: -50px;
+    margin-right: 32px;
 }
-
-
-.card-black .like{
+.card .like{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+
 }
+.card .like div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 4px;
+    transform: translate(-10px,-230px);
+
+}
+
 .card-black .like div{
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    padding: 10px 25px;
     border-radius: 10px;
-    background-color: #373737;
-    border: 1px solid #42445D;
-    transform: translate(-10px,-180px);
+    background: #373737;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
 }
-.card-dark .like{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
+
+
 .card-dark .like div{
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    padding: 10px 25px;
     border-radius: 10px;
-    background-color: #42445D;
-    border: 1px solid #373737;
-    transform: translate(-10px,-180px);
+    background: #42445D;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
 }
-.card-light .like{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
+
 .card-light .like div{
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    padding: 10px 25px;
     border-radius: 10px;
-    background-color: #ffffff;
-    border: 1px solid #42445D;
-    transform: translate(-10px,-180px);
+    background: #F5F5F5;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.card p{
+    display: flex;
+    width: 333px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 19px;
+}
+.card h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 6px;
+    
+}
+.card-black h5{
+    color: #CECECE;
+
+}
+.card-dark h5{
+    color: #CECECE;
+
+}
+.card-black h5{
+    color: #42445D;
+
 }
 
 
