@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.card-black{
+    margin: 100px;
+    background: black;
+    color: #CECECE;
+    border-radius: 30px;
+    box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+    padding: 15px;
+    width: 400px;
+    height: 450px;
+    
+}
+.card-dark{
+    margin: 100px;
+    border-radius: 30px;
+    background: #232639;
+    box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+    color: #CECECE;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    
+}
+.card-light{
+    margin: 100px;
+    background: #ffffff;
+    color: #232639;
+    border-radius: 30px;
+    box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    
+}
+.input1{
+    border: 1px solid #42445D;
+    width: 250px;
+    height: 50px;
+    background: #373737;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 6px;
+
+    
+}
+.input1 input{
+    
+    border-style: hidden;
+    padding-top: 10px;
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: Roboto;
+    
+    color: #CECECE;
+
+}
+.card-dark .input1 input{
+    background: #42445D;
+}
+.card-dark .input1 {
+    background: #42445D;
+}
+.card-light .input1 input{
+    background: #fdfdfdfd;
+}
+.card-light .input1 {
+    background: #fdfdfdfd;
+    border: 1px solid #42445D;
+}
+.card-black .input1 input{
+    background: #373737;
+    
+}
+.card-black .input1 {
+    background: #373737;
+    border: 1px solid #42445D;
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    background: #644DEA;
+    border-radius: 20px;
+    border-style: hidden;
+}
+#belgi{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+
+.card-black .like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-black .like div{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #373737;
+    border: 1px solid #42445D;
+    transform: translate(-10px,-180px);
+}
+.card-dark .like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-dark .like div{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #42445D;
+    border: 1px solid #373737;
+    transform: translate(-10px,-180px);
+}
+.card-light .like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-light .like div{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #42445D;
+    transform: translate(-10px,-180px);
+}
+
+
